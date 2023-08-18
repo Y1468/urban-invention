@@ -1,0 +1,54 @@
+
+*{
+  font-family:sans-serif;
+  margin: 0px;
+}
+
+table,th,td{
+  border:2px solid black;
+  
+}
+
+th,td{
+  padding:5px;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset{
+  border-radius: 12px;
+}
+
+input{
+  margin-botton:6px;
+}
+
+.btn{
+ margin-top: 8px;
+}
+
+
+#altera{
+  background-color: orange;
+}
+
+#exclui{
+  background-color: red;
+}
+
+
+#altera a{
+  color:white;
+  text-decoration:none;
+}
+
+#exclui a{
+  color:white;
+  text-decoration: none;
+}
